@@ -1,3 +1,4 @@
-h1 {
-  background-color: blue;
-  color: red; }
+#desktop {
+  background-color: #CCC;
+  width: 1024px;
+  height: 768px; }
