@@ -1,4 +1,25 @@
 #desktop {
+  position: relative;
   background-color: #CCC;
   width: 1024px;
-  height: 768px; }
+  height: 768px;
+  z-index: 0;
+  display: inline-block; }
+
+#window-handles {
+  display: inline-block; }
+  #window-handles li {
+    list-style: none;
+    cursor: pointer; }
+    #window-handles li.active {
+      list-style: disc; }
+
+.bwm-window {
+  border: 1px solid black;
+  background-color: blue;
+  position: absolute;
+  color: white; }
+  .bwm-window.active {
+    color: black;
+    border-color: green;
+    background-color: yellow; }
